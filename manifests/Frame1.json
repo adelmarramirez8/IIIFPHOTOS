@@ -1,0 +1,48 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://adelmarramirez8.github.io/IIIFPHOTOS/manifests/Frame1.json",
+  "@type" : "sc:Manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Frame",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Daniela Bojorquez",
+  "sequences" : [ {
+    "@id" : "http://3861e9ce-c712-4355-a292-d7ecb5d098db",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://fd477ae3-977c-41ff-bffb-29da26b8bb43",
+      "@type" : "sc:Canvas",
+      "label" : "Frame1",
+      "height" : "700",
+      "width" : "800",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://68d36d32-27ed-4e0a-9d8c-07c34083bfc0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/screen-shot-2023-09-01-at-11.55.03-am/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/screen-shot-2023-09-01-at-11.55.03-am",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1404,
+          "width" : 2257
+        },
+        "on" : "http://fd477ae3-977c-41ff-bffb-29da26b8bb43"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
