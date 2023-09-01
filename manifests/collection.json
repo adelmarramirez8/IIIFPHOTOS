@@ -1,0 +1,13 @@
+{
+  "id" : "https://adelmarramirez8.github.io/IIIFPHOTOS/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in adelmarramirez8/IIIFPHOTOS project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://adelmarramirez8.github.io/IIIFPHOTOS/manifests/Frame1.json",
+    "label" : null
+  } ]
+}
